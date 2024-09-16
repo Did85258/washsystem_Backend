@@ -37,7 +37,7 @@ public class WatertmpController {
 
 	}
 	
-	@PostMapping("/emp/water/cerate")
+	@PostMapping("/emp/water/create")
 	public ResponseEntity<Map<String,Object>> cerate(
 			@RequestBody Watertmpdto.Watertmpinfo waterreq
 			){

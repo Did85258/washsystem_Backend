@@ -50,7 +50,7 @@ public class EmployeeController {
 		return ResponseEntity.status((int)map.get("code")).body(map);
 		
 	}
-	@PostMapping("/emp/cerate")
+	@PostMapping("/emp/create")
 	public ResponseEntity<Map<String,Object>> create(
 				@RequestBody Employeedto.EmployeeCreate Empreq
 			){

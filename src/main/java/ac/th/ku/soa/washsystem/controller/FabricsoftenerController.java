@@ -37,7 +37,7 @@ public class FabricsoftenerController {
 
 	}
 	
-	@PostMapping("/emp/fab/cerate")
+	@PostMapping("/emp/fab/create")
 	public ResponseEntity<Map<String,Object>> cerate(
 			@RequestBody Fabricsoftenerdto.FabricsoftenerCarate Fabreq
 			){

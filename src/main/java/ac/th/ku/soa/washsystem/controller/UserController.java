@@ -49,7 +49,7 @@ public class UserController {
 
 	}
 	
-	@PostMapping("public/cerateUser")
+	@PostMapping("public/createUser")
 	public ResponseEntity<Map<String,Object>> cerate(
 			@RequestBody Userdto.UserCerate userreq
 			){

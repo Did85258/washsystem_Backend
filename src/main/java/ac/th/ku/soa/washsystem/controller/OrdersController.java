@@ -23,7 +23,7 @@ public class OrdersController {
 	@Autowired
 	private OrdersSrevice orders;
 
-	@PostMapping("/orders/cerate")
+	@PostMapping("/orders/create")
 	public ResponseEntity<Map<String, Object>> cerate(@RequestBody Ordersdto.OrdersCerate ordersReq) {
 		Map<String, Object> map = orders.cerate(ordersReq);
 		return ResponseEntity.status((int) map.get("code")).body(map);
